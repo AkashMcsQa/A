@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-24T14:40:47 IST" name="Default suite" finished-at="2024-06-24T14:42:19 IST" duration-ms="92589">
+    <groups>
+    </groups>
+    <test started-at="2024-06-24T14:40:47 IST" name="Default test" finished-at="2024-06-24T14:42:19 IST" duration-ms="92589">
+      <class name="com.maketimecountTest.ServiceUser">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.maketimecountTest.ServiceUser@815b41f]" started-at="2024-06-24T14:40:43 IST" name="openBrowser" finished-at="2024-06-24T14:40:47 IST" duration-ms="3945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="enterUrl()[pri:0, instance:com.maketimecountTest.ServiceUser@815b41f]" started-at="2024-06-24T14:40:47 IST" name="enterUrl" finished-at="2024-06-24T14:40:49 IST" duration-ms="2624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUrl -->
+        <test-method is-config="true" signature="timeout()[pri:0, instance:com.maketimecountTest.ServiceUser@815b41f]" started-at="2024-06-24T14:40:49 IST" name="timeout" finished-at="2024-06-24T14:40:49 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timeout -->
+        <test-method signature="loginPage()[pri:1, instance:com.maketimecountTest.ServiceUser@815b41f]" started-at="2024-06-24T14:40:49 IST" name="loginPage" finished-at="2024-06-24T14:40:51 IST" duration-ms="1420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method is-config="true" signature="deleteCookies()[pri:0, instance:com.maketimecountTest.ServiceUser@815b41f]" started-at="2024-06-24T14:40:51 IST" name="deleteCookies" finished-at="2024-06-24T14:40:51 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCookies -->
+        <test-method signature="CreateServiceUser()[pri:2, instance:com.maketimecountTest.ServiceUser@815b41f]" started-at="2024-06-24T14:40:51 IST" name="CreateServiceUser" finished-at="2024-06-24T14:40:59 IST" duration-ms="7998" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateServiceUser -->
+        <test-method is-config="true" signature="deleteCookies()[pri:0, instance:com.maketimecountTest.ServiceUser@815b41f]" started-at="2024-06-24T14:40:59 IST" name="deleteCookies" finished-at="2024-06-24T14:40:59 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCookies -->
+        <test-method signature="basicBioInfo()[pri:3, instance:com.maketimecountTest.ServiceUser@815b41f]" started-at="2024-06-24T14:40:59 IST" name="basicBioInfo" finished-at="2024-06-24T14:41:14 IST" duration-ms="14687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicBioInfo -->
+        <test-method is-config="true" signature="deleteCookies()[pri:0, instance:com.maketimecountTest.ServiceUser@815b41f]" started-at="2024-06-24T14:41:14 IST" name="deleteCookies" finished-at="2024-06-24T14:41:14 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCookies -->
+        <test-method signature="otherBioInfo()[pri:4, instance:com.maketimecountTest.ServiceUser@815b41f]" started-at="2024-06-24T14:41:14 IST" name="otherBioInfo" finished-at="2024-06-24T14:41:40 IST" duration-ms="26295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- otherBioInfo -->
+        <test-method signature="RefNumbersVerify()[pri:5, instance:com.maketimecountTest.ServiceUser@815b41f]" started-at="2024-06-24T14:41:40 IST" name="RefNumbersVerify" finished-at="2024-06-24T14:41:47 IST" duration-ms="6854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RefNumbersVerify -->
+        <test-method is-config="true" signature="deleteCookies()[pri:0, instance:com.maketimecountTest.ServiceUser@815b41f]" started-at="2024-06-24T14:41:40 IST" name="deleteCookies" finished-at="2024-06-24T14:41:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCookies -->
+        <test-method signature="EdTrainingVerify()[pri:6, instance:com.maketimecountTest.ServiceUser@815b41f]" started-at="2024-06-24T14:41:47 IST" name="EdTrainingVerify" finished-at="2024-06-24T14:41:56 IST" duration-ms="9579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EdTrainingVerify -->
+        <test-method is-config="true" signature="deleteCookies()[pri:0, instance:com.maketimecountTest.ServiceUser@815b41f]" started-at="2024-06-24T14:41:47 IST" name="deleteCookies" finished-at="2024-06-24T14:41:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCookies -->
+        <test-method is-config="true" signature="deleteCookies()[pri:0, instance:com.maketimecountTest.ServiceUser@815b41f]" started-at="2024-06-24T14:41:56 IST" name="deleteCookies" finished-at="2024-06-24T14:41:56 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCookies -->
+        <test-method signature="Accommodation()[pri:7, instance:com.maketimecountTest.ServiceUser@815b41f]" started-at="2024-06-24T14:41:56 IST" name="Accommodation" finished-at="2024-06-24T14:42:01 IST" duration-ms="4783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Accommodation -->
+        <test-method signature="YOT()[pri:8, instance:com.maketimecountTest.ServiceUser@815b41f]" started-at="2024-06-24T14:42:01 IST" name="YOT" finished-at="2024-06-24T14:42:09 IST" duration-ms="8409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- YOT -->
+        <test-method is-config="true" signature="deleteCookies()[pri:0, instance:com.maketimecountTest.ServiceUser@815b41f]" started-at="2024-06-24T14:42:01 IST" name="deleteCookies" finished-at="2024-06-24T14:42:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCookies -->
+        <test-method signature="Clothing()[pri:9, instance:com.maketimecountTest.ServiceUser@815b41f]" started-at="2024-06-24T14:42:09 IST" name="Clothing" finished-at="2024-06-24T14:42:14 IST" duration-ms="4357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Clothing -->
+        <test-method is-config="true" signature="deleteCookies()[pri:0, instance:com.maketimecountTest.ServiceUser@815b41f]" started-at="2024-06-24T14:42:09 IST" name="deleteCookies" finished-at="2024-06-24T14:42:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCookies -->
+        <test-method signature="Information()[pri:10, instance:com.maketimecountTest.ServiceUser@815b41f]" started-at="2024-06-24T14:42:14 IST" name="Information" finished-at="2024-06-24T14:42:19 IST" duration-ms="5301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Information -->
+        <test-method is-config="true" signature="deleteCookies()[pri:0, instance:com.maketimecountTest.ServiceUser@815b41f]" started-at="2024-06-24T14:42:14 IST" name="deleteCookies" finished-at="2024-06-24T14:42:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCookies -->
+        <test-method is-config="true" signature="deleteCookies()[pri:0, instance:com.maketimecountTest.ServiceUser@815b41f]" started-at="2024-06-24T14:42:19 IST" name="deleteCookies" finished-at="2024-06-24T14:42:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCookies -->
+        <test-method is-config="true" signature="getScreenshot()[pri:0, instance:com.maketimecountTest.ServiceUser@815b41f]" started-at="2024-06-24T14:42:19 IST" name="getScreenshot" finished-at="2024-06-24T14:42:19 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getScreenshot -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.maketimecountTest.ServiceUser@815b41f]" started-at="2024-06-24T14:42:19 IST" name="closeBrowser" finished-at="2024-06-24T14:42:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.maketimecountTest.ServiceUser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
