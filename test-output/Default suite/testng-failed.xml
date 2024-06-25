@@ -14,9 +14,7 @@
           <include name="timeout"/>
           <include name="Information"/>
           <include name="getScreenshot"/>
-          <include name="CreateServiceUser"/>
           <include name="getCookies"/>
-          <include name="loginPage"/>
           <include name="basicBioInfo"/>
           <include name="Accommodation"/>
           <include name="EdTrainingVerify"/>
