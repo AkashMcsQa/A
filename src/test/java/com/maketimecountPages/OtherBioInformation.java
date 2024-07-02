@@ -31,7 +31,7 @@ public class OtherBioInformation {
 	@FindBy(xpath = "//*[@id=\"root\"]/div/div[2]/main/section/div[2]/div/div/div/div[1]/div[2]/div[1]/div[2]/div/div/div")
 	WebElement PreferredCommunication;
 	
-	@FindBy(xpath = "//*[@id=\"root\"]/div/div[2]/main/section/div[2]/div/div/div/div[1]/div[2]/div[1]/div[3]/div/div/div")
+	@FindBy(xpath = "//*[@id=\"root\"]/div/div[2]/main/section/div[2]/div/div/div/div[1]/div[2]/div[1]/div[3]/div/div/div/div")
 	WebElement LAUExclusion;
 	
 	@FindBy(xpath = "//*[@id=\"rc_select_6\"]")
@@ -65,10 +65,10 @@ public class OtherBioInformation {
 	@FindBy(xpath = "//*[@id=\"rc_select_13\"]")
 	WebElement PNCEthnicCode;
 	
-	@FindBy(xpath = "//*[@id=\"root\"]/div/div[2]/main/section/div[2]/div/div/div/div[1]/div[2]/div[2]/div[7]/div/div/div/div")
+	@FindBy(xpath = "/html/body/div[1]/div/div[2]/main/section/div[2]/div/div/div/div[1]/div[2]/div[2]/div[7]/div/div/div/div")
 	WebElement disabilityElement;
 	
-	@FindBy(xpath = "//*[@id=\"rc_select_15\"]")
+	@FindBy(xpath = "/html/body/div[1]/div/div[2]/main/section/div[2]/div/div/div/div[1]/div[2]/div[2]/div[8]/div/div/div/span[1]/input")
 	WebElement sexualOrintationElement;
 	
 	
@@ -121,6 +121,9 @@ public class OtherBioInformation {
 	@FindBy(xpath = "//input[@placeholder='TBD 16']")
 	WebElement tbd16;
 	
+	@FindBy(xpath = "//*[@id=\"root\"]/div/div[2]/main/section/div[2]/div/div/div/div[1]/div[2]/div[3]/div[1]/div/div/div/div/span/div/span")
+	WebElement ProfileU;
+	
 	@FindBy(xpath = "//*[@id=\"root\"]/div/div[2]/main/section/div[2]/div/div/div/div[2]/div[2]/span[3]/button")
 	WebElement nextButtonElement;
 	
@@ -146,10 +149,10 @@ public class OtherBioInformation {
 	   
 	
 	   LAUExclusion.click();
-	 List<WebElement>lauElements=  Common.driver.findElements(By.xpath("//div[@class=\"rc-virtual-list-holder-inner\"]//div"));
+	 List<WebElement>lauElements=  Common.driver.findElements(By.xpath("//*[@class=\"rc-virtual-list-holder-inner\"]//div"));
 	   System.out.println("Total Number Of Dropdown LAUExclusion="+lauElements.size());
 	  for(WebElement dropdown:lauElements) {
-		  if(dropdown.getText().equals("Android")) {
+		  if(dropdown.getText().equals("Marvellous GIFTS")) {
 			  dropdown.click();
 			  break;
 		  }
@@ -246,7 +249,8 @@ public class OtherBioInformation {
   JavascriptExecutor js1=(JavascriptExecutor)Common.driver;
   js1.executeScript("arguments[0].click();",disabilityElement);
   
-List<WebElement>dis1=  Common.driver.findElements(By.xpath("//*[@class=\"rc-virtual-list-holder-inner\"]//div"));
+ // disabilityElement.click();
+  List<WebElement>dis1=  Common.driver.findElements(By.xpath("//*[@class=\"rc-virtual-list-holder-inner\"]//div"));
         for(WebElement Dropdown:dis1) {
 	  
 	     if(Dropdown.getText().equals("Long term physical health")) {
@@ -263,6 +267,7 @@ List<WebElement>dis1=  Common.driver.findElements(By.xpath("//*[@class=\"rc-virt
         JavascriptExecutor js=(JavascriptExecutor)Common.driver;
         js.executeScript("arguments[0].click();",sexualOrintationElement);
      
+       // sexualOrintationElement.click();
         List<WebElement>sexua1=  Common.driver.findElements(By.xpath("//*[@class=\"rc-virtual-list-holder-inner\"]//div"));
         
         for(WebElement Dropdown:sexua1) {
@@ -325,6 +330,7 @@ List<WebElement>dis1=  Common.driver.findElements(By.xpath("//*[@class=\"rc-virt
    
    String t16=Common.tbd16();
    tbd16.sendKeys(t16);
+   
    
    JavascriptExecutor j=(JavascriptExecutor)Common.driver;
    j.executeScript("arguments[0].click();",nextButtonElement);

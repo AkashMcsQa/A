@@ -36,8 +36,11 @@ public class basicBioInformation {
 	@FindBy(xpath = "//input[@placeholder='Preferred Name']")
 	WebElement preferrednamElement;
 	
-	@FindBy(xpath = "//input[@placeholder='Previous Name']")
-	WebElement previenamElement;
+	@FindBy(xpath = "//input[@placeholder='Pronouns']")
+	WebElement pronounsElement;
+	
+   @FindBy(xpath = "//input[@placeholder='Previous Name']")
+   WebElement previenamElement;
 	
 	@FindBy(xpath = "//input[@placeholder='Contact No (Mobile)']")
 	WebElement mNumberElement;
@@ -100,7 +103,10 @@ public class basicBioInformation {
     String prename= Common.prefeName();
     preferrednamElement.sendKeys(prename);
  
+    pronounsElement.sendKeys("Pronouns");
     String previ= Common.previName();
+    
+    
     previenamElement.sendKeys(previ);
     
     String mn=Common.MobileNumber();

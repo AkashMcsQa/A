@@ -3,25 +3,24 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.maketimecountTest.ServiceUser">
+      <class name="ServiceUser.ServiceUser">
         <methods>
-          <include name="closeBrowser"/>
-          <include name="Clothing"/>
-          <include name="enterUrl"/>
-          <include name="RefNumbersVerify"/>
-          <include name="deleteCookies"/>
-          <include name="otherBioInfo"/>
           <include name="timeout"/>
           <include name="Information"/>
-          <include name="getScreenshot"/>
-          <include name="getCookies"/>
-          <include name="basicBioInfo"/>
-          <include name="Accommodation"/>
+          <include name="enterUrl"/>
+          <include name="otherBioInfo"/>
+          <include name="deleteCookies"/>
+          <include name="RefNumbersVerify"/>
+          <include name="Clothing"/>
           <include name="EdTrainingVerify"/>
-          <include name="YOT"/>
+          <include name="Accommodation"/>
+          <include name="closeBrowser"/>
           <include name="openBrowser"/>
+          <include name="YOT"/>
+          <include name="getCookies"/>
+          <include name="getScreenshot"/>
         </methods>
-      </class> <!-- com.maketimecountTest.ServiceUser -->
+      </class> <!-- ServiceUser.ServiceUser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
